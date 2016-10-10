@@ -7,21 +7,20 @@ MySQLとSpring Bootを使用した簡単な検索ができるWebアプリケー�
 
 下記の環境で開発および動作確認を行いました。
 
-* Windows7 (64bit)
-* Java 1.8.0_60
+* OS X El Capitan 10.11.6
+* Java 1.8.0_65
 * Spring Boot 1.2.5
  * thymeleaf 2.1.4
  * logback 1.1.3
-* MySQL CE 5.6
-* Eclipse 4.4
-* Maven 3.3.3
+* MySQL 5.7.15
+* STS 3.8.2
 
 **事前準備**
 
 サンプルデータを下記の通り準備します。
 
-* データベース: `sample_db`
-* ユーザー: `test_user`
+* データベース: `db`
+* ユーザー: `user`
 * テーブル: `actor`, `prefecture`
 
 データベース、ユーザー、テーブル、サンプルデータを作成するsqlは、resources/dataにあります。
